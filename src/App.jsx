@@ -11,11 +11,11 @@ function App() {
   }
 
   const decreaseCount = () => {
-    setCount(count + 1)
+    setCount(count - 1)
   }
   return (
     <>
-      <h1>Hello World!</h1>
+      <h1>Counter App</h1>
       <h3>{count}</h3>
       <button onClick={increaseCount} >+</button>
       <button onClick={decreaseCount} >-</button>
